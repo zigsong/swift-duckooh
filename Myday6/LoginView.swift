@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Environment(\.colorScheme) var backgroundColor
+
     @State private var email: String = ""
     @State private var password: String = ""
     
     var body: some View {
         ZStack {
-            BackgroundView()
+            Color.viewBackgroundColor().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             
             VStack {
                 Text("MyDay Diary")
@@ -58,13 +60,6 @@ struct LoginView: View {
         }
     }
     
-}
-
-struct BackgroundView: View {
-    var body: some View {
-        LinearGradient(gradient: Gradient(colors: [Color(hex: "131D2A"), Color(hex: "57A5B2")]), startPoint: .topLeading, endPoint: .bottomTrailing)
-            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-    }
 }
 
 struct LoginView_Previews: PreviewProvider {

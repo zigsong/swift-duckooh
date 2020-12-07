@@ -33,3 +33,9 @@ extension Color {
         )
     }
 }
+
+extension Color {
+    static func viewBackgroundColor() -> LinearGradient {
+        return LinearGradient(gradient: Gradient(colors: [Color(hex: "131D2A"), Color(hex: "57A5B2")]), startPoint: .topLeading, endPoint: .bottomTrailing)
+    }
+}

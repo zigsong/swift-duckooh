@@ -14,7 +14,7 @@
 		647DB62E257A86D200FF1C78 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DB62D257A86D200FF1C78 /* Persistence.swift */; };
 		647DB631257A86D200FF1C78 /* Myday6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 647DB62F257A86D200FF1C78 /* Myday6.xcdatamodeld */; };
 		648CC3D6257E718F00418864 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D5257E718F00418864 /* LoginView.swift */; };
-		648CC3DA257E72A600418864 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D9257E72A600418864 /* Color+Hex.swift */; };
+		648CC3DA257E72A600418864 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D9257E72A600418864 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		647DB630257A86D200FF1C78 /* Myday6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Myday6.xcdatamodel; sourceTree = "<group>"; };
 		647DB632257A86D200FF1C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648CC3D5257E718F00418864 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		648CC3D9257E72A600418864 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		648CC3D9257E72A600418864 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		648CC3D8257E729100418864 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				648CC3D9257E72A600418864 /* Color+Hex.swift */,
+				648CC3D9257E72A600418864 /* Color.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 				647DB627257A86D100FF1C78 /* ContentView.swift in Sources */,
 				648CC3D6257E718F00418864 /* LoginView.swift in Sources */,
 				647DB625257A86D100FF1C78 /* Myday6App.swift in Sources */,
-				648CC3DA257E72A600418864 /* Color+Hex.swift in Sources */,
+				648CC3DA257E72A600418864 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,11 @@
 		647DB62C257A86D200FF1C78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DB62B257A86D200FF1C78 /* Preview Assets.xcassets */; };
 		647DB62E257A86D200FF1C78 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DB62D257A86D200FF1C78 /* Persistence.swift */; };
 		647DB631257A86D200FF1C78 /* Myday6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 647DB62F257A86D200FF1C78 /* Myday6.xcdatamodeld */; };
+		647EA110257FC06700C51613 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA10F257FC06700C51613 /* MainView.swift */; };
+		647EA113257FC0D100C51613 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA112257FC0D100C51613 /* ProfileView.swift */; };
+		647EA116257FC10600C51613 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA115257FC10600C51613 /* BrowseView.swift */; };
+		647EA119257FC12300C51613 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA118257FC12300C51613 /* AccountView.swift */; };
+		647EA11C257FC13500C51613 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA11B257FC13500C51613 /* ChatView.swift */; };
 		648CC3D6257E718F00418864 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D5257E718F00418864 /* LoginView.swift */; };
 		648CC3DA257E72A600418864 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D9257E72A600418864 /* Color.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +33,11 @@
 		647DB62D257A86D200FF1C78 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		647DB630257A86D200FF1C78 /* Myday6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Myday6.xcdatamodel; sourceTree = "<group>"; };
 		647DB632257A86D200FF1C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647EA10F257FC06700C51613 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		647EA112257FC0D100C51613 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		647EA115257FC10600C51613 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		647EA118257FC12300C51613 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		647EA11B257FC13500C51613 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		648CC3D5257E718F00418864 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		648CC3D9257E72A600418864 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +77,11 @@
 				647DB626257A86D100FF1C78 /* ContentView.swift */,
 				648CC3D5257E718F00418864 /* LoginView.swift */,
 				645C2100257F9CD6009571CE /* MyboxView.swift */,
+				647EA10F257FC06700C51613 /* MainView.swift */,
+				647EA115257FC10600C51613 /* BrowseView.swift */,
+				647EA118257FC12300C51613 /* AccountView.swift */,
+				647EA11B257FC13500C51613 /* ChatView.swift */,
+				647EA112257FC0D100C51613 /* ProfileView.swift */,
 				647DB628257A86D200FF1C78 /* Assets.xcassets */,
 				647DB62D257A86D200FF1C78 /* Persistence.swift */,
 				647DB632257A86D200FF1C78 /* Info.plist */,
@@ -162,6 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				647DB62E257A86D200FF1C78 /* Persistence.swift in Sources */,
+				647EA113257FC0D100C51613 /* ProfileView.swift in Sources */,
+				647EA116257FC10600C51613 /* BrowseView.swift in Sources */,
+				647EA110257FC06700C51613 /* MainView.swift in Sources */,
+				647EA11C257FC13500C51613 /* ChatView.swift in Sources */,
+				647EA119257FC12300C51613 /* AccountView.swift in Sources */,
 				647DB631257A86D200FF1C78 /* Myday6.xcdatamodeld in Sources */,
 				645C2101257F9CD6009571CE /* MyboxView.swift in Sources */,
 				647DB627257A86D100FF1C78 /* ContentView.swift in Sources */,

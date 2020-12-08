@@ -41,7 +41,7 @@ struct LoginView: View {
                             .frame(width: 320, height: nil)
                             .padding(.top, 8)
                         
-                        NavigationLink(destination: MyboxView()) {
+                        NavigationLink(destination: MainView()) {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 50.0).fill(Color.white)
                                     .frame(width: 320, height: 56, alignment: .center)

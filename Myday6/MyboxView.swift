@@ -11,7 +11,21 @@ struct MyboxView: View {
     var body: some View {
         ZStack {
             Color.viewBackgroundColor().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Text("My Box")
+            Text("Mybox")
+            
+//            TabView {
+//                        Text("Home Tab")
+//                            .font(.system(size: 30, weight: .bold, design: .rounded))
+//                            .tabItem {
+//                                Image(systemName: "house.fill")
+//                                Text("Home")
+//                            }
+//                    }
+//            TabView {
+//                tabItem {
+//                    Image("tab_profile_default")
+//                }
+//            }
         }
         // .navigationBarBackButtonHidden(true)
     }

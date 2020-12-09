@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		645C2101257F9CD6009571CE /* MyboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C2100257F9CD6009571CE /* MyboxView.swift */; };
+		646683542581215C007ACFF2 /* PTSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646683522581215C007ACFF2 /* PTSans-Regular.ttf */; };
+		646683552581215C007ACFF2 /* PTSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646683532581215C007ACFF2 /* PTSans-Bold.ttf */; };
 		647DB625257A86D100FF1C78 /* Myday6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DB624257A86D100FF1C78 /* Myday6App.swift */; };
 		647DB627257A86D100FF1C78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DB626257A86D100FF1C78 /* ContentView.swift */; };
 		647DB629257A86D200FF1C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DB628257A86D200FF1C78 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		645C2100257F9CD6009571CE /* MyboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyboxView.swift; sourceTree = "<group>"; };
+		646683522581215C007ACFF2 /* PTSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSans-Regular.ttf"; path = "../../../../../Downloads/PT_Sans/PTSans-Regular.ttf"; sourceTree = "<group>"; };
+		646683532581215C007ACFF2 /* PTSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSans-Bold.ttf"; path = "../../../../../Downloads/PT_Sans/PTSans-Bold.ttf"; sourceTree = "<group>"; };
 		647DB621257A86D100FF1C78 /* Myday6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myday6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647DB624257A86D100FF1C78 /* Myday6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myday6App.swift; sourceTree = "<group>"; };
 		647DB626257A86D100FF1C78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6466834F2581212B007ACFF2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				646683532581215C007ACFF2 /* PTSans-Bold.ttf */,
+				646683522581215C007ACFF2 /* PTSans-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		647DB618257A86D100FF1C78 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 				647DB62D257A86D200FF1C78 /* Persistence.swift */,
 				647DB632257A86D200FF1C78 /* Info.plist */,
 				647DB62F257A86D200FF1C78 /* Myday6.xcdatamodeld */,
+				6466834F2581212B007ACFF2 /* Font */,
 				647DB62A257A86D200FF1C78 /* Preview Content */,
 			);
 			path = Myday6;
@@ -164,7 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646683542581215C007ACFF2 /* PTSans-Regular.ttf in Resources */,
 				647DB62C257A86D200FF1C78 /* Preview Assets.xcassets in Resources */,
+				646683552581215C007ACFF2 /* PTSans-Bold.ttf in Resources */,
 				647DB629257A86D200FF1C78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

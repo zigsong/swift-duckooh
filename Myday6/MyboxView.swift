@@ -16,12 +16,12 @@ struct MyboxView: View {
             
             VStack {
                 Text("Mybox")
-                    .font(.system(size: 32, design: .rounded))
+                    .font(Font.custom("PTSans-Bold", size: 32))
                     .foregroundColor(Color.white)
                     .padding(.top, 16)
                 
                 Text("mybox에서 내 영상 찜 콕콕")
-                    .font(.system(size: 15, design: .rounded))
+                    .font(Font.custom("PTSans-Regular", size: 16))
                     .foregroundColor(Color.white)
                     .padding(.top, 4)
                     .padding(.bottom, 12)

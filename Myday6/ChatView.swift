@@ -10,7 +10,10 @@ import SwiftUI
 struct ChatView: View {
     var body: some View {
         ZStack {
-            Color.viewBackgroundColor().edgesIgnoringSafeArea(.all)
+            Color.viewBackgroundColor()
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
+            
             Text("Chat View")
         }
     }

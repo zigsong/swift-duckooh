@@ -12,13 +12,11 @@ struct MainView: View {
     
     var body: some View {
         ZStack {
-            Color.viewBackgroundColor().edgesIgnoringSafeArea(.all)
-            
             CustomTabView(selectedTab: $selectedTab)
         }
         .navigationBarTitle("")
         .navigationBarHidden(true)
-//        .navigationBarBackButtonHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 
@@ -40,9 +38,9 @@ struct CustomTabView: View {
                 ChatView()
                     .tag("chat")
             }
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+//            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .ignoresSafeArea(.all, edges: .bottom)
-//            .frame(height: UIScreen.main.bounds.height)
+            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             
             
             HStack(spacing: 0) {
@@ -58,7 +56,8 @@ struct CustomTabView: View {
             .background(Color.white)
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
-        .ignoresSafeArea(.keyboard, edges: .bottom)
+        .edgesIgnoringSafeArea(.all)
+//        .ignoresSafeArea(.keyboard, edges: .bottom)
     }
 }
 

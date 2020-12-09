@@ -10,24 +10,60 @@ import SwiftUI
 struct MyboxView: View {
     var body: some View {
         ZStack {
-            Color.viewBackgroundColor().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Text("Mybox")
+            Color.viewBackgroundColor()
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
             
-//            TabView {
-//                        Text("Home Tab")
-//                            .font(.system(size: 30, weight: .bold, design: .rounded))
-//                            .tabItem {
-//                                Image(systemName: "house.fill")
-//                                Text("Home")
-//                            }
-//                    }
-//            TabView {
-//                tabItem {
-//                    Image("tab_profile_default")
-//                }
-//            }
+            VStack {
+                Text("Mybox")
+                    .font(.system(size: 32, design: .rounded))
+                    .foregroundColor(Color.white)
+                    .padding(.top, 16)
+                
+                Text("mybox에서 내 영상 찜 콕콕")
+                    .font(.system(size: 15, design: .rounded))
+                    .foregroundColor(Color.white)
+                    .padding(.top, 4)
+                    .padding(.bottom, 12)
+
+                
+                PreviewList(category: "youtube")
+                PreviewList(category: "twitter")
+                PreviewList(category: "vlive")
+                
+                Spacer()
+            }
         }
-        // .navigationBarBackButtonHidden(true)
+    }
+}
+
+struct PreviewList: View {
+    var category: String
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Text(category)
+                Spacer()
+                Image(systemName: "arrow.forward.circle")
+            }
+            .foregroundColor(Color.white)
+            .font(.system(size: 20))
+            .padding(.horizontal, 6)
+            
+            ScrollView(.horizontal) {
+                HStack(spacing: 20) {
+                    ForEach(0..<10) { _ in
+                        RoundedRectangle(cornerRadius: 15.0)
+                            .fill(Color.white)
+                            .frame(width: 150, height: 150, alignment: .center)
+                    }
+                }
+            }
+            
+        }
+        .padding(.vertical, 6)
+        .padding(.horizontal, 12)
     }
 }
 

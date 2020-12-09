@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
-    @State private var selectedTab = "mybox"
-    
     var body: some View {
         ZStack {
-            CustomTabView(selectedTab: $selectedTab)
+            CustomTabView()
         }
         .navigationBarTitle("")
         .navigationBarHidden(true)
@@ -21,22 +19,22 @@ struct MainView: View {
 }
 
 struct CustomTabView: View {
-    @Binding var selectedTab: String
+    @State var selectedTab = "tab_mybox"
 
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
             
             TabView(selection: $selectedTab) {
                 ProfileView()
-                    .tag("profile")
+                    .tag("tab_profile")
                 BrowseView()
-                    .tag("browse")
+                    .tag("tab_browse")
                 MyboxView()
-                    .tag("mybox")
+                    .tag("tab_mybox")
                 AccountView()
-                    .tag("account")
+                    .tag("tab_account")
                 ChatView()
-                    .tag("chat")
+                    .tag("tab_chat")
             }
 //            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .ignoresSafeArea(.all, edges: .bottom)
@@ -69,14 +67,18 @@ struct TabButton: View {
     
     var body: some View {
         Button(action: {
-            let startIdx = image.index(image.startIndex, offsetBy: 4)
-            selectedTab = String(image[startIdx...])
+            self.selectedTab = image
         }) {
-            Image(image)
-                .padding()
+            if self.selectedTab == image {
+                let selectedName = image + "_selected"
+                Image(selectedName)
+                    .padding()
+            } else {
+                Image(image)
+                    .padding()
+            }
         }
     }
-    
 }
 
 struct MainView_Previews: PreviewProvider {

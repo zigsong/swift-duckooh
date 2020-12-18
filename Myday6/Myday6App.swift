@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct Myday6App: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
             LoginView()

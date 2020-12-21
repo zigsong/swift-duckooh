@@ -13,8 +13,9 @@ struct Myday6App: App {
     
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            EntryView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(UserAuth())
         }
     }
 }

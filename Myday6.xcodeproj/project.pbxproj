@@ -21,8 +21,9 @@
 		647EA116257FC10600C51613 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA115257FC10600C51613 /* BrowseView.swift */; };
 		647EA119257FC12300C51613 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA118257FC12300C51613 /* AccountView.swift */; };
 		647EA11C257FC13500C51613 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EA11B257FC13500C51613 /* ChatView.swift */; };
-		648CC3D6257E718F00418864 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D5257E718F00418864 /* LoginView.swift */; };
+		648CC3D6257E718F00418864 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D5257E718F00418864 /* EntryView.swift */; };
 		648CC3DA257E72A600418864 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC3D9257E72A600418864 /* Color.swift */; };
+		64C9FEC8259033D800BBEAF0 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9FEC7259033D800BBEAF0 /* UserAuth.swift */; };
 		64E83022258B867200B4B1ED /* Category+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E83020258B867200B4B1ED /* Category+CoreData.swift */; };
 		64FCC809258C70E20060385E /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCC808258C70E20060385E /* AlertViewController.swift */; };
 		64FCC80C258C7F370060385E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCC80B258C7F370060385E /* CategoryView.swift */; };
@@ -45,8 +46,9 @@
 		647EA115257FC10600C51613 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		647EA118257FC12300C51613 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		647EA11B257FC13500C51613 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		648CC3D5257E718F00418864 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		648CC3D5257E718F00418864 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		648CC3D9257E72A600418864 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		64C9FEC7259033D800BBEAF0 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 		64E83020258B867200B4B1ED /* Category+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreData.swift"; sourceTree = "<group>"; };
 		64FCC808258C70E20060385E /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		64FCC80B258C7F370060385E /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
@@ -95,7 +97,8 @@
 				648CC3D8257E729100418864 /* extensions */,
 				647DB624257A86D100FF1C78 /* Myday6App.swift */,
 				647DB626257A86D100FF1C78 /* ContentView.swift */,
-				648CC3D5257E718F00418864 /* LoginView.swift */,
+				648CC3D5257E718F00418864 /* EntryView.swift */,
+				64C9FEC7259033D800BBEAF0 /* UserAuth.swift */,
 				647EA10F257FC06700C51613 /* MainView.swift */,
 				647EA112257FC0D100C51613 /* ProfileView.swift */,
 				647EA115257FC10600C51613 /* BrowseView.swift */,
@@ -211,8 +214,9 @@
 				647EA119257FC12300C51613 /* AccountView.swift in Sources */,
 				647DB631257A86D200FF1C78 /* Myday6.xcdatamodeld in Sources */,
 				645C2101257F9CD6009571CE /* MyboxView.swift in Sources */,
+				64C9FEC8259033D800BBEAF0 /* UserAuth.swift in Sources */,
 				647DB627257A86D100FF1C78 /* ContentView.swift in Sources */,
-				648CC3D6257E718F00418864 /* LoginView.swift in Sources */,
+				648CC3D6257E718F00418864 /* EntryView.swift in Sources */,
 				647DB625257A86D100FF1C78 /* Myday6App.swift in Sources */,
 				648CC3DA257E72A600418864 /* Color.swift in Sources */,
 				64FCC80C258C7F370060385E /* CategoryView.swift in Sources */,

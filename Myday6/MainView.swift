@@ -12,9 +12,10 @@ struct MainView: View {
         ZStack {
             CustomTabView()
         }
-        .navigationBarTitle("")
         .navigationBarHidden(true)
+        .navigationBarTitle("")
         .navigationBarBackButtonHidden(true)
+        .edgesIgnoringSafeArea([.top, .bottom])
     }
 }
 
@@ -37,7 +38,7 @@ struct CustomTabView: View {
                     .tag("tab_chat")
             }
 //            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-            .ignoresSafeArea(.all, edges: .bottom)
+            .ignoresSafeArea(.all, edges: .all)
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             
             
@@ -55,7 +56,7 @@ struct CustomTabView: View {
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
         .edgesIgnoringSafeArea(.all)
-//        .ignoresSafeArea(.keyboard, edges: .bottom)
+        .ignoresSafeArea(.keyboard, edges: .bottom)
     }
 }
 
